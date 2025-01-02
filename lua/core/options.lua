@@ -11,3 +11,4 @@ vim.o.clipboard = "unnamedplus"
 vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
 vim.cmd.colorscheme "catppuccin-mocha"
+-- vim.cmd [[colorscheme nightfly]]

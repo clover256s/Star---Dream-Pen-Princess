@@ -69,7 +69,7 @@ return {
           else
             vim_item.abbr = content .. (" "):rep(max_content_width - #content)
           end
-          return vim_item
+          return require("nvim-highlight-colors").format(entry, vim_item)
         end,
       },
       snippet = {
